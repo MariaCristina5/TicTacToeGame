@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300;400;500;600;700&family=Poppins:wght@700&display=swap');
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-image: url('backgorund.avif');
+    object-fit: cover;
+    background-position: right 35% bottom 40%;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 450px;
+    background-color: rgb(109, 118, 134);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    opacity: 0.7;
+}
+
+
+.main-control {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 16px;
+    column-gap: 8px;
+}
+
+.main .main-control input {
+    font-size: 32px;
+    caret-color: transparent;
+    outline-color: rgb(22, 22, 110);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+#cell1, #cell2, #cell3, 
+#cell4, #cell5, #cell6, 
+#cell7, #cell8, #cell9 {
+    width: 90px;
+    height: 48px;
+    text-align: center;
+    background-color: #d1d1d1;
+    border: 1px solid #b6b3b3;
+    border-radius: 4px;
+
+
+}
+
+
