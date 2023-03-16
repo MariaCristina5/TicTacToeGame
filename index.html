@@ -10,23 +10,34 @@
 </head>
 
 <body>
+    <header class="main-header">
+        <h1>Welcome to Tic Tac Toe Game</h1>
+        <p class="print" id="print">Tap on box to start the game </p>
+        
+    </header>
     <div class="main">
         <div class="main-control">
-            <input type="text" id="cell1">
-            <input type="text" id="cell2">
-            <input type="text" id="cell3">
-            <input type="text" id="cell4">
-            <input type="text" id="cell5">
-            <input type="text" id="cell6">
-            <input type="text" id="cell7">
-            <input type="text" id="cell8">
-            <input type="text" id="cell9">
+            <input type="text" id="cell1" readonly>
+            <input type="text" id="cell2" readonly>
+            <input type="text" id="cell3" readonly>
+            <input type="text" id="cell4" readonly>
+            <input type="text" id="cell5" readonly>
+            <input type="text" id="cell6" readonly>
+            <input type="text" id="cell7" readonly>
+            <input type="text" id="cell8" readonly>
+            <input type="text" id="cell9" readonly>
         </div>
         <button class="newgame-btn" id="newgame-btn">New game</button>
     </div>
+    <p>*First player starts as Player X
+        and second player as Player 0</p>
 
 
     <script src="app.js"></script>
 </body>
 
 </html>
+
+<!--paste this code in input field: onclick="cell_1();myFunc();" 
+for shorter syntax
+-->
