@@ -10,11 +10,14 @@
 </head>
 
 <body>
+    
+    <div class="flex-wrapper">
     <header class="main-header">
         <h1>Welcome to Tic Tac Toe Game</h1>
         <p class="print" id="print">Tap on box to start the game </p>
         
     </header>
+   
     <div class="main">
         <div class="main-control">
             <input type="text" id="cell1" readonly>
@@ -32,6 +35,13 @@
     <p>*First player starts as Player X
         and second player as Player 0</p>
 
+        <div class="pop-up-container">
+            <div class="pop-up" id="pop-up">
+                <p class="won-text">Test</p>
+                <button id="close-btn">Close</button>
+            </div>  
+        </div>
+</div>
 
     <script src="app.js"></script>
 </body>

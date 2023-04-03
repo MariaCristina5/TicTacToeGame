@@ -62,7 +62,11 @@ function myFunc() {
     (cellThree == "x" || cellThree == "X")
   ) {
     //de afisat intr-un fel un text un container in care sa mentioneze ca a invins jucatorul
-    document.getElementById("print").innerHTML = "Player X won";
+    document.querySelector('.pop-up-container').style.display = 'block';
+    document.querySelector(".won-text").innerHTML = "Player X won";
+    document.querySelector("#close-btn").addEventListener('click', () => {
+      document.querySelector('.pop-up-container').style.display = "none";
+  });
 
     document.getElementById("cell4").disabled = true;
     document.getElementById("cell5").disabled = true;
@@ -77,7 +81,11 @@ function myFunc() {
     (cellSeven == "x" || cellSeven == "X")
   ) {
     //de afisat intr-un fel un text un container in care sa mentioneze ca a invins jucatorul
-    document.getElementById("print").innerHTML = "Player X won";
+    document.querySelector('.pop-up-container').style.display = 'block';
+    document.querySelector(".won-text").innerHTML = "Player X won";
+    document.querySelector("#close-btn").addEventListener('click', () => {
+      document.querySelector('.pop-up-container').style.display = "none";
+  });
 
     document.getElementById("cell2").disabled = true;
     document.getElementById("cell3").disabled = true;
@@ -91,7 +99,11 @@ function myFunc() {
     (cellNine == "x" || cellNine == "X")
   ) {
     //de afisat intr-un fel un text un container in care sa mentioneze ca a invins jucatorul
-    document.getElementById("print").innerHTML = "Player X won";
+    document.querySelector('.pop-up-container').style.display = 'block';
+    document.querySelector(".won-text").innerHTML = "Player X won";
+    document.querySelector("#close-btn").addEventListener('click', () => {
+      document.querySelector('.pop-up-container').style.display = "none";
+  });
 
     document.getElementById("cell1").disabled = true;
     document.getElementById("cell2").disabled = true;
@@ -105,7 +117,11 @@ function myFunc() {
     (cellNine == "x" || cellNine == "X")
   ) {
     //de afisat intr-un fel un text un container in care sa mentioneze ca a invins jucatorul
-    document.getElementById("print").innerHTML = "Player X won";
+    document.querySelector('.pop-up-container').style.display = 'block';
+    document.querySelector(".won-text").innerHTML = "Player X won";
+    document.querySelector("#close-btn").addEventListener('click', () => {
+      document.querySelector('.pop-up-container').style.display = "none";
+  });
 
     document.getElementById("cell1").disabled = true;
     document.getElementById("cell2").disabled = true;
@@ -119,7 +135,11 @@ function myFunc() {
     (cellNine == "x" || cellNine == "X")
   ) {
     //de afisat intr-un fel un text un container in care sa mentioneze ca a invins jucatorul
-    document.getElementById("print").innerHTML = "Player X won";
+    document.querySelector('.pop-up-container').style.display = 'block';
+    document.querySelector(".won-text").innerHTML = "Player X won";
+    document.querySelector("#close-btn").addEventListener('click', () => {
+      document.querySelector('.pop-up-container').style.display = "none";
+  });
 
     document.getElementById("cell2").disabled = true;
     document.getElementById("cell3").disabled = true;
@@ -133,7 +153,11 @@ function myFunc() {
     (cellSeven == "x" || cellSeven == "X")
   ) {
     //de afisat intr-un fel un text un container in care sa mentioneze ca a invins jucatorul
-    document.getElementById("print").innerHTML = "Player X won";
+    document.querySelector('.pop-up-container').style.display = 'block';
+    document.querySelector(".won-text").innerHTML = "Player X won";
+    document.querySelector("#close-btn").addEventListener('click', () => {
+      document.querySelector('.pop-up-container').style.display = "none";
+  });
 
     document.getElementById("cell1").disabled = true;
     document.getElementById("cell2").disabled = true;
@@ -147,7 +171,11 @@ function myFunc() {
     (cellEight == "x" || cellEight == "X")
   ) {
     //de afisat intr-un fel un text un container in care sa mentioneze ca a invins jucatorul
-    document.getElementById("print").innerHTML = "Player X won";
+    document.querySelector('.pop-up-container').style.display = 'block';
+    document.querySelector(".won-text").innerHTML = "Player X won";
+    document.querySelector("#close-btn").addEventListener('click', () => {
+      document.querySelector('.pop-up-container').style.display = "none";
+  });
 
     document.getElementById("cell1").disabled = true;
     document.getElementById("cell3").disabled = true;
@@ -161,7 +189,11 @@ function myFunc() {
     (cellSix == "x" || cellSix == "X")
   ) {
     //de afisat intr-un fel un text un container in care sa mentioneze ca a invins jucatorul
-    document.getElementById("print").innerHTML = "Player X won";
+    document.querySelector('.pop-up-container').style.display = 'block';
+    document.querySelector(".won-text").innerHTML = "Player X won";
+    document.querySelector("#close-btn").addEventListener('click', () => {
+      document.querySelector('.pop-up-container').style.display = "none";
+  });
 
     document.getElementById("cell1").disabled = true;
     document.getElementById("cell2").disabled = true;
@@ -177,7 +209,11 @@ function myFunc() {
     (cellThree == "o" || cellThree == "O")
   ) {
     //de afisat intr-un fel un text un container in care sa mentioneze ca a invins jucatorul
-    document.getElementById("print").innerHTML = "Player O won";
+    document.querySelector('.pop-up-container').style.display = 'block';
+    document.querySelector(".won-text").innerHTML = "Player O won";
+    document.querySelector("#close-btn").addEventListener('click', () => {
+      document.querySelector('.pop-up-container').style.display = "none";
+  });
 
     document.getElementById("cell4").disabled = true;
     document.getElementById("cell5").disabled = true;
@@ -191,7 +227,11 @@ function myFunc() {
     (cellSeven == "o" || cellSeven == "O")
   ) {
     //de afisat intr-un fel un text un container in care sa mentioneze ca a invins jucatorul
-    document.getElementById("print").innerHTML = "Player O won";
+    document.querySelector('.pop-up-container').style.display = 'block';
+    document.querySelector(".won-text").innerHTML = "Player O won";
+    document.querySelector("#close-btn").addEventListener('click', () => {
+      document.querySelector('.pop-up-container').style.display = "none";
+  });
 
     document.getElementById("cell2").disabled = true;
     document.getElementById("cell3").disabled = true;
@@ -205,7 +245,11 @@ function myFunc() {
     (cellNine == "o" || cellNine == "O")
   ) {
     //de afisat intr-un fel un text un container in care sa mentioneze ca a invins jucatorul
-    document.getElementById("print").innerHTML = "Player O won";
+    document.querySelector('.pop-up-container').style.display = 'block';
+    document.querySelector(".won-text").innerHTML = "Player O won";
+    document.querySelector("#close-btn").addEventListener('click', () => {
+      document.querySelector('.pop-up-container').style.display = "none";
+  });
 
     document.getElementById("cell1").disabled = true;
     document.getElementById("cell2").disabled = true;
@@ -219,7 +263,11 @@ function myFunc() {
     (cellNine == "o" || cellNine == "O")
   ) {
     //de afisat intr-un fel un text un container in care sa mentioneze ca a invins jucatorul
-    document.getElementById("print").innerHTML = "Player O won";
+    document.querySelector('.pop-up-container').style.display = 'block';
+    document.querySelector(".won-text").innerHTML = "Player O won";
+    document.querySelector("#close-btn").addEventListener('click', () => {
+      document.querySelector('.pop-up-container').style.display = "none";
+  });
 
     document.getElementById("cell1").disabled = true;
     document.getElementById("cell2").disabled = true;
@@ -233,7 +281,11 @@ function myFunc() {
     (cellNine == "o" || cellNine == "O")
   ) {
     //de afisat intr-un fel un text un container in care sa mentioneze ca a invins jucatorul
-    document.getElementById("print").innerHTML = "Player O won";
+    document.querySelector('.pop-up-container').style.display = 'block';
+    document.querySelector(".won-text").innerHTML = "Player O won";
+    document.querySelector("#close-btn").addEventListener('click', () => {
+      document.querySelector('.pop-up-container').style.display = "none";
+  });
 
     document.getElementById("cell2").disabled = true;
     document.getElementById("cell3").disabled = true;
@@ -247,7 +299,11 @@ function myFunc() {
     (cellSeven == "o" || cellSeven == "O")
   ) {
     //de afisat intr-un fel un text un container in care sa mentioneze ca a invins jucatorul
-    document.getElementById("print").innerHTML = "Player O won";
+    document.querySelector('.pop-up-container').style.display = 'block';
+    document.querySelector(".won-text").innerHTML = "Player O won";
+    document.querySelector("#close-btn").addEventListener('click', () => {
+      document.querySelector('.pop-up-container').style.display = "none";
+  });
 
     document.getElementById("cell1").disabled = true;
     document.getElementById("cell2").disabled = true;
@@ -261,7 +317,11 @@ function myFunc() {
     (cellEight == "o" || cellEight == "O")
   ) {
     //de afisat intr-un fel un text un container in care sa mentioneze ca a invins jucatorul
-    document.getElementById("print").innerHTML = "Player O won";
+    document.querySelector('.pop-up-container').style.display = 'block';
+    document.querySelector(".won-text").innerHTML = "Player O won";
+    document.querySelector("#close-btn").addEventListener('click', () => {
+      document.querySelector('.pop-up-container').style.display = "none";
+  });
 
     document.getElementById("cell1").disabled = true;
     document.getElementById("cell3").disabled = true;
@@ -275,7 +335,11 @@ function myFunc() {
     (cellSix == "o" || cellSix == "O")
   ) {
     //de afisat intr-un fel un text un container in care sa mentioneze ca a invins jucatorul
-    document.getElementById("print").innerHTML = "Player O won";d
+    document.querySelector('.pop-up-container').style.display = 'block';
+    document.querySelector(".won-text").innerHTML = "Player O won";
+    document.querySelector("#close-btn").addEventListener('click', () => {
+      document.querySelector('.pop-up-container').style.display = "none";
+  });
 
     document.getElementById("cell1").disabled = true;
     document.getElementById("cell2").disabled = true;
